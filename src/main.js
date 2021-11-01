@@ -5,16 +5,16 @@ import GameScene from './scenes/GameScene';
 
 const config = {
     // For more settings see <https://github.com/photonstorm/phaser/blob/master/src/boot/Config.js>
-    type: Phaser.WEBGL,
+    type: Phaser.CANVAS,
     pixelArt: true,
     roundPixels: true,
     parent: 'content',
-    width: 450,
-    height: 720,
+    width: 800,
+    height: 600,
     physics: {
         default: 'arcade',
         arcade: {
-            debug: false
+            debug: true
         }
     },
     scene: [
