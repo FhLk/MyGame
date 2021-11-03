@@ -1,6 +1,7 @@
 import 'phaser';
 import Phaser from 'phaser';
 import GameScene from './scenes/GameScene';
+import Time_Event from './scenes/Time_Event';
 
 
 const config = {
@@ -18,7 +19,7 @@ const config = {
         }
     },
     scene: [
-        GameScene
+        Time_Event
     ],
     
     
